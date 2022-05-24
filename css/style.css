@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #342222;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: calc(0.1em + 6vw);
+}
+
+h2 {
+    font-size: calc(0.1em + 3vw);
+}
+
+h3 {
+    font-size: calc(0.1em + 1.5vw);
+}
+
+.container {
+    max-width: 80%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.header .header-container {
+    background-color: #c50a0a9b;
+    position: fixed;
+    padding: 0 50px;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 0;
+    transition: .5s;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    display: block;
+    padding: 30px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-size: calc(0.1em + 1.1vw);
+    text-decoration: none;
+}
+
+.menu .logo_menu {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.all_blocks {
+    height: 100%;
+    display: flex;
+}
+
+.biography_right, .biography_left {
+    width: 50%;
+    margin: 2%;
+}
+
+.career_container {
+    padding: 2%;
+}
+
+.text {
+    color: rgb(255, 145, 145);
+    text-indent: 4%;
+    font-size: calc(0.1em + 1vw);
+    text-align: justify;
+}
+
+.all_blocks h2, .biography_right h2, .career_container h2, .title_text h2, .title_text h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.left_img {
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+
+.right_img {
+    float: right;
+    margin: 7px 0 7px 7px;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.contacts__inner {
+    padding: 7% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__block {
+    padding: 0 15px;
+    width: 30%;
+    text-align: center;
+}
+
+.contacts__titel {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: calc(0.1em + 1.1vw);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts__address {
+    font-size: calc(0.1em + 1.1vw);
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    font-style: normal;
+}
+
+.contacts__text {
+    font-size: calc(0.1em + 1.1vw);
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright {
+    padding: 20px 0;
+}
+
+.copyright__text .text {
+    text-align: center;
+    font-size: calc(0.1em + 1.1vw);
+    line-height: 1.5;
+    color: #808080;
+}
+
+.copyright__text span {
+    color: #aeaeae;
+}
